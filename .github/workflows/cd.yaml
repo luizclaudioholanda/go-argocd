@@ -13,7 +13,7 @@ jobs:
       - name: build image and push to dockerhub
         uses: docker/build-push-action@v1.1.0
         with:
-          username: luizclaudioholanda
+          username: luizholandadocker
           password: ${{secrets.DOCKER_PASSWORD}}
           repository: luizholandadocker/go-argocd
           tags: ${{github.sha}}, latest
