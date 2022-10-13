@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: goargocdapp
+spec:
+  selector:
+    matchLabels:
+      app: goargocdapp
+  template:
+    metadata:
+      labels:
+        app: goargocdapp
+    spec:
+      containers:
+      - name: goargocdapp
+        image: goargocdapp
+        ports:
+        - containerPort: 9000
