@@ -9,4 +9,4 @@ namespace: goargocdapp
 images:
 - name: goargocdapp
   newName: luizholandadocker/go-argocd
-  newTag: 42751d874ac406013daaadc9c65d5dca9b83a6d9
+  newTag: aea6e46ceb1ff851706858455a5b13207e79b509
